@@ -1,0 +1,110 @@
+/* Task card component */
+.taskInputs{
+    font-size: 0.33cm;
+
+    color:rgb(63,81,181);
+}
+.task-name{
+    color:rgb(11, 68, 40);
+    font-size: x-large;
+    font-weight: 400;
+    
+}
+.task-desc{
+    color: #000;
+    font-size:medium;
+    font-style:oblique;
+}
+.task-assignee{
+    color: #000;
+    font-size: large;
+}
+.task-diff{
+    color: #000;
+    font-size: large; 
+}
+.task-type{
+    color: #000;
+    font-size: large;
+}
+.task-tag{
+    color: #000;
+    font-size: large;
+}
+.task-prio{
+    color: #000;
+    font-size: large;
+}
+
+/* Cards */
+.card1{
+    height: 420px;
+    width: 320px;
+    background-color: #ff7979;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 1px rgba(254, 30, 30, 0.538);
+    border: 3px solid rgb(49, 48, 48);
+}
+
+.card2{
+    height: 420px;
+    width: 320px;
+    background-color: rgb(97, 219, 97);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(137, 222, 138, 0.511);
+    border: 2px solid rgb(59, 59, 59);
+}
+
+.card3{
+    height: 420px;
+    width: 320px;
+    background-color:rgb(239, 239, 79);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(233, 222, 66, 0.541);
+    border: 2px solid #000;
+}
+
+.card4{
+    height: 420px;
+    width: 320px;
+    background-color:rgb(225, 246, 246);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(180, 245, 255, 0.541);
+    border: 2px solid #000;
+}
+
+#spaceBtn{
+    margin-right: 30px;
+}
+
+select option[value="null"] {
+    background: rgb(225, 246, 246);
+    }
+
+select option[value="Front End"] {
+    background: #ff7979;
+    }
+  
+select option[value="Back End"] {
+    background: rgb(97, 219, 97);
+    }
+
+select option[value="Design"] {
+    background: rgb(239, 239, 79);
+    }

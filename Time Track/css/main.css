@@ -1,0 +1,93 @@
+.body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+.mdl-layout-title{
+    color:rgb(255, 255, 255);
+    font-family:monospace;
+    font-size:2.2em;
+    font-weight: 500;
+}
+
+.mdl-layout__content{
+    color:rgb(11, 68, 40);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f1f1f1;
+    padding: 20px;
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+}
+
+.mdl-layout__header{
+    background:rgb(178, 32, 80);
+    border-bottom: 5px solid rgb(255, 98, 132);
+    color: #000000;
+}
+
+.mdl-button--fab{
+    position: fixed;
+    bottom: 50px;
+    right: 50px; 
+}
+
+.mdl-button{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 500;
+}
+
+.container{
+    padding: 2px 16px;
+}
+
+.mdl-dialog{
+    width: 900px;
+}
+
+.p {
+    text-align: center;
+}
+
+.space {
+    width: 15px;
+    height: auto;
+    display: inline-block;
+  }
+
+.page-content{
+    font-size: 20px;
+}
+
+#sprintName{
+    font-size: 20px;
+}
+
+#sprintDuration{
+    font-size: 20px;
+}
+
+#sprintState{
+    font-size: 20px;
+}
+
+#pending{
+    font-size: 20px;
+}
+
+#progress{
+    font-size: 20px;
+}
+
+#complete{
+    font-size: 20px;
+}
+
+#timeSpent{
+    font-size: 20px;
+}
+

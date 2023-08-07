@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991887220253",
+    "firebase_url": "https://bookstoreapp-7d7a2-default-rtdb.firebaseio.com",
+    "project_id": "bookstoreapp-7d7a2",
+    "storage_bucket": "bookstoreapp-7d7a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991887220253:android:7770950d79b4a3ba42b0f4",
+        "android_client_info": {
+          "package_name": "com.example.week2lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991887220253-jti4n8o14pjht4bqtgqr0guplngubnpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw6cq4xhtC0J51y-lg2NVqfHlUbKYeHes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991887220253-jti4n8o14pjht4bqtgqr0guplngubnpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

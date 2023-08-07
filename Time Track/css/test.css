@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+
+.card1{
+    color:red;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    
+}
+
+.card2{
+    background-color:yellow;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.card3{
+    background-color:green;
+    border-radius: 10px;
+    height: 10px;
+}
+
+.demo-card-square.mdl-card{
+    width: 320px;
+    height: 320px;
+}
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: rgb(151, 50, 50);
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: rgb(171, 230, 253);    
+}
